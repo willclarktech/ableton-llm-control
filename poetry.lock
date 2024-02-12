@@ -2065,6 +2065,19 @@ spelling = ["pyenchant (>=3.2,<4.0)"]
 testutils = ["gitpython (>3)"]
 
 [[package]]
+name = "pylive"
+version = "0.4.0"
+description = "Python remote control of Ableton Live"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pylive-0.4.0.tar.gz", hash = "sha256:0b38860dd1df276f923cfd132e80c1e38ff666b186c2510cca32f475a14a631b"},
+]
+
+[package.dependencies]
+python-osc = "*"
+
+[[package]]
 name = "pyproject-hooks"
 version = "1.0.0"
 description = "Wrappers to call pyproject.toml-based build backend hooks."
@@ -2098,6 +2111,17 @@ python-versions = ">=3.6"
 files = [
     {file = "python-json-logger-2.0.7.tar.gz", hash = "sha256:23e7ec02d34237c5aa1e29a070193a4ea87583bb4e7f8fd06d3de8264c4b2e1c"},
     {file = "python_json_logger-2.0.7-py3-none-any.whl", hash = "sha256:f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd"},
+]
+
+[[package]]
+name = "python-osc"
+version = "1.8.3"
+description = "Open Sound Control server and client implementations in pure Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "python-osc-1.8.3.tar.gz", hash = "sha256:a5ce1ba56c8d82df51cb3f2946b5dd33a70522791acc4b8564e62d2b20ad9caa"},
+    {file = "python_osc-1.8.3-py3-none-any.whl", hash = "sha256:6fa7e5cf7690057712c26e5f67a747126e6a5f481a40792aad0f25ac3edee815"},
 ]
 
 [[package]]
@@ -3059,4 +3083,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "df294c19027c192324be252fabea19f2f403478e44db3f7b708495fbf1916069"
+content-hash = "bdf0cdcd323dd3654b3244496ba885c207f1e133b57e7e0ebe93181a96b27be1"
