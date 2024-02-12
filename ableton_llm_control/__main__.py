@@ -1,6 +1,6 @@
 import sys
 
-from python_template.lib import hello
+from ableton_llm_control.lib import hello
 
 try:
     hello()
