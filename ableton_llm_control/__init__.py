@@ -4,6 +4,7 @@ from ableton_llm_control.recording import (
     stop_recording,
 )
 from ableton_llm_control.tools import get_tools_list, tools
+from ableton_llm_control.transcription import transcribe
 
 __all__ = [
     "get_tools_list",
@@ -11,4 +12,5 @@ __all__ = [
     "init_recording",
     "start_recording",
     "stop_recording",
+    "transcribe",
 ]
