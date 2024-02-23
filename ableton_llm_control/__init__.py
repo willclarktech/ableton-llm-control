@@ -5,6 +5,7 @@ from ableton_llm_control.recording import (
 )
 from ableton_llm_control.tools import get_tools_list, tools
 from ableton_llm_control.transcription import transcribe
+from ableton_llm_control.ui import create_record_button
 
 __all__ = [
     "get_tools_list",
@@ -13,4 +14,5 @@ __all__ = [
     "start_recording",
     "stop_recording",
     "transcribe",
+    "create_record_button",
 ]
