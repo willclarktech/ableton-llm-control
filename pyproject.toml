@@ -9,7 +9,12 @@ version = "0.0.0"
 [tool.poetry.dependencies]
 python = "^3.11"
 numpy = "^1.26.4"
+langchain = "^0.1.8"
+langchain-openai = "^0.0.7"
+langchainhub = "^0.1.14"
+langgraph = "^0.0.26"
 pylive = "^0.4.0"
+python-dotenv = "^1.0.1"
 sounddevice = "^0.4.6"
 torch = "^2.2.0"
 transformers = { extras = ["torch"], version = "^4.37.2" }
